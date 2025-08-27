@@ -459,15 +459,15 @@ wheels = [
 
 [[package]]
 name = "sf-quant"
-version = "0.1.2"
+version = "0.1.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "polars" },
     { name = "python-dotenv" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/8a/74/06b4fc431a25bd916d76589fb99a5664db2f6a8a0f914c7fed5b4c8c7345/sf_quant-0.1.2.tar.gz", hash = "sha256:2f9c18c5d85825252661ef3cf7586f87d43faa7e1774fd81616fa9716d27a2a5", size = 5738, upload-time = "2025-08-27T01:59:38.244Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/df/d3/660fc118961d08636bfa0fdbc26ef0fb1e5c15be825ed83eaf4ee8bbc9a9/sf_quant-0.1.3.tar.gz", hash = "sha256:dfbadca0dfc227453e0938a35b544948a25d5bff4f71ad7f20f63ba80e96bb69", size = 37476, upload-time = "2025-08-27T17:34:40.877Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4c/8f/df92b75afc6eea62e6189b3d86e1a27d3e27774bc8e5bb993f5cfae7fb13/sf_quant-0.1.2-py3-none-any.whl", hash = "sha256:02ea5ae167ace93647ee797f5182d82a964d537b07acfa3a7be365d62bcca30a", size = 4273, upload-time = "2025-08-27T01:59:37.179Z" },
+    { url = "https://files.pythonhosted.org/packages/75/a1/8e6a46f9177884edfe93e4f7ea6036c9dba31a592bf08b569d2de18db47f/sf_quant-0.1.3-py3-none-any.whl", hash = "sha256:bada1cb37e7a8a9cc3ac2190de05431e601aea900a51e8a472d1dc3c01fbb749", size = 8083, upload-time = "2025-08-27T17:34:39.655Z" },
 ]
 
 [[package]]
@@ -484,7 +484,7 @@ dependencies = [
 requires-dist = [
     { name = "ipykernel", specifier = ">=6.30.1" },
     { name = "polars", specifier = ">=1.32.3" },
-    { name = "sf-quant", specifier = ">=0.1.2" },
+    { name = "sf-quant", specifier = ">=0.1.3" },
 ]
 
 [[package]]
